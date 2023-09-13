@@ -30,7 +30,7 @@ class AnagramImplTest {
             "hello, world",
             "not, anagram"
     })
-    @DisplayName("is anagrams successful")
+    @DisplayName("is not anagrams")
     void isNotAnagram(String firstInputTest, String secondInputTest) {
         assertFalse(anagramUnderTest.isAnagram(firstInputTest, secondInputTest));
     }
